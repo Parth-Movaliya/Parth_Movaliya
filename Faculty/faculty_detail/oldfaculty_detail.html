@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="faculty_detail.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/300fc8e5c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="wrapper">
+      <div class="web">
+        <div class="logoweb">
+          <img src="./logo.png" alt="not render" class="webimg">
+        </div>
+
+       <div class="nameweb">
+        <div id="mainheadtag">Student Information System </div>
+       </div>
+      </div>
+      <div class="remain">
+        <div class="sidenav">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home </a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i> Faculty Details </a></li>
+            <li><a href="#"><i class="fa-solid fa-file"></i> Course Grade</a></li>
+            <li><a href="#"><i class="fa-solid fa-clipboard"></i> Course Attendence </a></li>
+            <li><a href="#"><i class="fa-solid fa-key"></i> Change Password </a></li>
+            <li><a  href="#"><i class="fa-solid fa-right-to-bracket"></i> Logout </a></li>
+          </ul>
+          <!-- <button class="home-button"><i class="fa fa-home"></i> Home</button>
+          <button class="faculty-details-button"><i class="fa fa-user"></i> Faculty Details</button> -->
+          
+                    <h1>
+                      <div class="profile-details">
+                           <div class="profile-image">
+                              
+                          </div>
+                          <div class="profile-name"> Mr Sorb tiwaru</div>
+                      
+                   </div>
+                  </h1>
+        </div>
+<div class="content">
+
+    <div class="facultyinfo">
+        <div class="facultyphoto">
+            <h1>Abhishek Jindal</h1>
+            <img src="faculty_photo1.png" alt="abhishek Jindal" class="facultyimg">
+        </div>
+        <div class="facultydetail">
+
+            <div class="f11">
+
+                <div class="empty"></div>
+
+                <div class="degree"><b>PhD (Wireless Communications), IIT Delhi</b></div>
+
+                <div class="mo-number">079-68261654</div>
+
+                <div class="location"># 4101, FB-4, DA-IICT, Gandhinagar, Gujarat, India – 382007</div>
+
+                <div class="email"> abhishek_jindal[at]daiict[dot]ac[dot]in</div>
+
+                
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="biography">
+        <h1>Biography</h1>
+        <p>I received the B. Tech. and M. Tech. degrees from the Jaypee Institute of Information Technology (JIIT) Noida, India. Thereafter, I obtained my Ph.D. from the Bharti School of Telecommunication Technology and Management at the Indian Institute of Technology Delhi (IIT Delhi), New Delhi, India under the supervision of Prof. Ranjan Bose. I was a postdoctoral research associate in the Department of Computer Science, University of Texas at Dallas, USA during 2017-2018 under the supervision of Prof. Zygmunt J. Haas. For a brief duration, I was an assistant professor in the Atria Institute of Technology (affiliated to Visvesvaraya Technological University (VTU), Belagavi) in Bengaluru, India. Since June, 2019, I am an assistant professor in DA-IICT.</p>
+    </div> 
+
+</div>
+        
+</div>
+            <!-- Delete Modal HTML -->
+            <!-- <div id="deleteEmployeeModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form>
+                            <div class="modal-header">						
+                                <h4 class="modal-title">Delete Employee</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <div class="modal-body">					
+                                <p>Are you sure you want to delete these Records?</p>
+                                <p class="text-warning"><small>This action cannot be undone.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+
+     <script>
+        $(document).ready(function(){
+            // Activate tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+            
+            // Select/Deselect checkboxes
+            var checkbox = $('table tbody input[type="checkbox"]');
+            $("#selectAll").click(function(){
+                if(this.checked){
+                    checkbox.each(function(){
+                        this.checked = true;                        
+                    });
+                } else{
+                    checkbox.each(function(){
+                        this.checked = false;                        
+                    });
+                } 
+            });
+            checkbox.click(function(){
+                if(!this.checked){
+                    $("#selectAll").prop("checked", false);
+                }
+            });
+        });
+        </script> -->
+
+
+        <!-- table code-->
+         <!-- <div class="main_text">
+            <div class="container-xl">
+              <div class="table-responsive">
+                <div class="table-wrapper">
+                  <div class="tableTitle">
+                    <span id="manageEmp">Manage Employee</span>
+                    <i class="fa-solid fa-plus"></i>
+                    <span id="addEmp">Add New Employee</span>
+                  </div>
+                  <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                        <th>Sr No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Thomas Hardy</td>
+                        <td>thomashardy@mail.com</td>
+                        <td>89 Chiaroscuro Rd, Portland, USA</td>
+                        <td>(171) 555-2222</td>
+                        <td>
+                          <a
+                            href="#editEmployeeModal"
+                            class="edit"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a
+                            href="#deleteEmployeeModal"
+                            class="delete"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Dominique Perrier</td>
+                        <td>dominiqueperrier@mail.com</td>
+                        <td>Obere Str. 57, Berlin, Germany</td>
+                        <td>(313) 555-5735</td>
+                        <td>
+                          <a
+                            href="#editEmployeeModal"
+                            class="edit"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a
+                            href="#deleteEmployeeModal"
+                            class="delete"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Maria Anders</td>
+                        <td>mariaanders@mail.com</td>
+                        <td>25, rue Lauriston, Paris, France</td>
+                        <td>(503) 555-9931</td>
+                        <td>
+                          <a
+                            href="#editEmployeeModal"
+                            class="edit"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a
+                            href="#deleteEmployeeModal"
+                            class="delete"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Fran Wilson</td>
+                        <td>franwilson@mail.com</td>
+                        <td>C/ Araquil, 67, Madrid, Spain</td>
+                        <td>(204) 619-5731</td>
+                        <td>
+                          <a
+                            href="#editEmployeeModal"
+                            class="edit"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a
+                            href="#deleteEmployeeModal"
+                            class="delete"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Martin Blank</td>
+                        <td>martinblank@mail.com</td>
+                        <td>Via Monte Bianco 34, Turin, Italy</td>
+                        <td>(480) 631-2097</td>
+                        <td>
+                          <a
+                            href="#editEmployeeModal"
+                            class="edit"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a
+                            href="#deleteEmployeeModal"
+                            class="delete"
+                            data-toggle="modal"
+                            ><i class="fa-solid fa-trash"></i
+                          ></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+     -->
+</body>
+</html>
