@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: open sans;
+}
+
+a{
+    color: rgb(255, 255, 255);
+	color: black;
+    text-decoration: none;
+	font-size: 135%;
+	
+}
+
+i{
+    margin-right: 3%;
+	
+}
+
+.wrapper{
+	height: 100vh;
+	width: 100vw;
+	/* background-image:  linear-gradient(to bottom right, rgb(2,26,51), rgb(213, 213, 213)); */
+	/* background-image: url(https://static.vecteezy.com/system/resources/previews/012/001/969/non_2x/dark-blue-banner-and-backdrop-background-vector.jpg); */
+	/* background-color: white; */
+
+	/* light img 1*/
+	background-image: url(https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?size=626&ext=jpg&ga=GA1.2.1929311289.1694337303&semt=ais);
+    background-image: url(https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg?size=626&ext=jpg&ga=GA1.1.1929311289.1694337303&semt=ais);
+	background-size: cover;
+	
+	
+
+}
+
+.web{
+	height: 8.5vh;
+	width: 100vw;
+	
+	display: flex;
+	
+}
+
+.logoweb{
+	height: 8.5vh;
+	width: 20vw;
+	background: rgba(31, 62, 96, 0.2);  
+	background-color: rgba(195, 206, 226,0.4);
+	/* background-color: rgb(2, 26, 51); */
+	/* background: transparent; */
+	
+}
+
+.webimg{
+	height: 94%;
+	width: 100%;
+}
+
+
+.nameweb{
+	height: 8.5vh;
+	width: 80vw;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(2, 26, 51); 
+	background: rgba(31, 62, 96, 0.2);  
+	background-color: rgba(195, 206, 226,0.4);
+	/* background: transparent; */
+	
+}
+
+#mainheadtag{
+
+	font-size: 250%;
+	font-family: cursive;
+	color: rgba(255, 255, 255, 0.844);
+	color: black;
+	
+}
+
+
+.remain{
+	height: 91.5vh;
+	/* border: 4px solid green; */
+	display: flex;
+	
+}
+/* .sidenav , .content{
+	border: 2px solid purple;
+} */
+
+.sidenav{
+	height: 91.5vh;
+	width: 20vw;
+
+}
+
+.content{
+	height: 91.5vh;
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid blue; */
+}
+
+
+
+.wrapper .sidenav{
+ background: rgba(2, 26, 51); 
+ background: rgba(31, 62, 96, 0.2);  
+ background-color: rgba(195, 206, 226,0.4);
+ 
+ /* background: transparent; */
+}
+
+ .sidenav{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+} 
+
+ /* .wrapper{
+	border: 5px solid orange;
+}  */
+
+.wrapper .remain .sidenav h1{
+    color:white;
+    text-align : center;
+	line-height: 100%;
+    border-bottom: 1px dotted white;
+    font-size: 170%;
+	overflow-y: hidden;
+}
+
+ul{
+   margin-top: 7%;
+   /* border: 2px solid red; */
+   height: 100%;
+} 
+
+
+
+.wrapper .remain .sidenav ul li{
+    list-style: none;
+    /* pading: 50px; */
+	height: 7%;
+	margin: 3%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
+
+
+}
+
+.wrapper .remain .main_text{
+width: 80vw;
+margin-left: 20vw;
+}
+
+/* main text */
+
+.profile-image{
+    height:48%;
+    width:15%;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZWFVq0QIidGN0ioQJHhNBoEr1DvlH_yR05nH2_uz3tku7PvXWnDGshe5PHLqxQ91oMQ&usqp=CAU");
+    background-size: cover;
+
+
+}
+.profile-details{
+    display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	height: 12vh;
+	
+}
+
+
+.table-wrapper {
+	background: #fff;
+	padding: 1.7% 1.4%;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	
+}
+
+table.table tr th, table.table tr td {
+	border-color: #e9e9e9;
+	padding: 3% 15px;
+	vertical-align: middle;
+
+}
+
+table.table tr th:first-child {
+	width: 100%;
+	
+}
+table.table tr th:last-child {
+	width: 4%;
+}
+/* table.table-striped tbody tr:nth-of-type(odd) {
+	/* background-color: #fcfcfc; 
+	
+} */
+
+
+.table-wrapper{
+	
+	
+	width: 40%;
+	margin-top: -2.7%;
+	transform: scale(1.4);
+	
+	background: transparent;
+	
+}
+
+.dropmenu{
+	background-image: rgb(2,26,51);
+	height: 26px;
+	border-radius: 6px;
+	color: white;
+}
+
+.dropmenu:hover{
+	box-shadow: 1px 1px 1px black;
+}
+
+select option{
+	color: white;
+	background-color: #566787;
+}
+
+select{
+	background-color: rgb(2, 26, 51, 0.85);
+
+}
+
+
+
+select option{
+	font-size: 150%;
+
+}
+
+
+
+td{
+	height: 100%;
+	border-radius: 10px;
+	color: black;
+	/* background: transparent; */
+	background-color: rgba(195, 206, 226,0.4);
+	
+}
+
+th{
+	background-color: rgb(2, 26, 51, 0.85);
+	color: white;
+	border-radius: 10px;
+	
+	
+}
+
+table{
+
+	margin-top: 4%;
+	border-collapse: separate;
+	border-spacing: 20px 20px;
+
+
+}
+
+/* tr:nth-child(even) {
+	background: white;
+}
+
+tr:nth-child(odd){
+	background: white;
+} */
+
+.bcolor:hover{
+	box-shadow: 2px 2px 1px rgb(7, 121, 244),
+	            -2px -2px -2px rgb(7, 121, 244);
+}
+
+tr:hover{
+	transform: scale(1.01);
+	transition: 0.1s;
+}
+
+.profile-name{
+	color: black;
+	height: auto;
+	overflow-y: hidden;
+}
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="admin_announcement.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/300fc8e5c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="wrapper">
+
+      <div class="web">
+
+        <div class="logoweb">
+          <img src="logo.png" alt="" class="webimg">
+        </div>
+
+       <div class="nameweb">
+        <div id="mainheadtag">Student Information System </div>
+       </div>
+
+
+      </div>
+        
+      <div class="remain">
+
+        <div class="sidenav">
+
+
+          <ul>
+            <li><a href="#" class="bcolor"><i class="fa-solid fa-house"></i> Home </a></li>
+            <li><a href="#" class="bcolor"><i class="fa-solid fa-user"></i> Faculty Details </a></li>
+            <li><a href="#" class="bcolor"><i class="fa-solid fa-file"></i> Course Grade</a></li>
+            <li><a href="#"><i class="fa-solid fa-clipboard"></i> Course Attendence </a></li>
+            <li><a href="#"><i class="fa-solid fa-key"></i> Change Password </a></li>
+            <li><a  href="#"><i class="fa-solid fa-right-to-bracket"></i> Logout </a></li>
+          </ul>
+          
+                    <h1>
+                      <div class="profile-details">
+                           <div class="profile-image">
+                              
+                          </div>
+                          <div class="profile-name">Admin</div>
+                      
+                   </div>
+                  </h1>
+   
+        </div>
+
+
+      <div class="content">
+        <div class="announcement-box">
+            <div class="announcement-title">
+            
+                
+                  <h1>Title</h1>
+                
+            
+            </div>
+
+            <div class="announcement-detail">
+              
+              <marquee class="css2" direction="up">
+                <h3>Here is some new announcement</h3>  </marquee>
+              
+            </div>
+
+            <div class="closing-date">
+
+              <input type="date" id="myDate" value="2014-02-09">
+
+              <p>Select the last date.</p>
+
+              <button onclick="myFunction()"></button>
+
+              <p id="demo">hvuvuyvuyvuygvuyg</p>
+
+              <script>
+              function myFunction() {
+                let x = document.getElementById("myDate").value;
+                
+                if(x > "2014-02-09")
+                document.getElementById("demo").innerHTML = x;
+              }
+              </script>
+
+            </div>
+
+            <div class="add-button">
+              <button class="add">
+                add
+              </button>
+            </div>
+
+        </div>
+        
+      </div>
+
+
+</div>
+
+
+
+         
+</body>
+</html>

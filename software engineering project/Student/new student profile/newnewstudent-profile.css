@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: open sans;
+}
+
+a{
+    color: rgb(255, 255, 255);
+	color: black;
+    text-decoration: none;
+	font-size: 135%;
+	
+}
+
+i{
+    margin-right: 3%;
+}
+
+.wrapper{
+	height: 100vh;
+	width: 100vw;
+	/* background-image:  linear-gradient(to bottom right, rgb(2,26,51), rgb(213, 213, 213)); */
+	/* background-image: url(https://static.vecteezy.com/system/resources/previews/012/001/969/non_2x/dark-blue-banner-and-backdrop-background-vector.jpg); */
+	/* background-color: white; */
+
+	/* light img 1*/
+	background-image: url(https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?size=626&ext=jpg&ga=GA1.2.1929311289.1694337303&semt=ais);
+    background-image: url(https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg?size=626&ext=jpg&ga=GA1.1.1929311289.1694337303&semt=ais);
+	background-size: cover;
+}
+
+.web{
+	height: 8.5vh;
+	width: 100vw;
+	display: flex;
+}
+
+.logoweb{
+	height: 8.5vh;
+	width: 20vw;
+	background: rgba(31, 62, 96, 0.2);  
+	background-color: rgba(195, 206, 226,0.4);
+    /* padding: 3px; */
+	/* background-color: rgb(2, 26, 51); */
+	/* background: transparent; */
+	
+}
+
+.webimg{
+	height: 94%;
+	width: 100%;
+    padding: 7px 10px;
+}
+
+
+.nameweb{
+	height: 8.5vh;
+	width: 80vw;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(2, 26, 51); 
+	background: rgba(31, 62, 96, 0.2);  
+	background-color: rgba(195, 206, 226,0.4);
+	/* background: transparent; */
+	
+}
+
+#mainheadtag{
+
+	font-size: 250%;
+	font-family: cursive;
+	color: rgba(255, 255, 255, 0.844);
+	color: black;
+	
+}
+
+
+.remain{
+	height: 91.5vh;
+	/* border: 4px solid green; */
+	display: flex;
+	
+}
+/* .sidenav , .content{
+	border: 2px solid purple;
+} */
+
+.sidenav{
+	height: 91.5vh;
+	width: 20vw;
+
+}
+
+.content{
+	height: 91.5vh;
+	width: 80vw;
+    /* outline:0.2vh solid blue;
+    outline-offset: -0.2vh; */
+    box-shadow: 50px 50px black;
+}
+
+
+
+.wrapper .sidenav{
+ background: rgba(2, 26, 51); 
+ background: rgba(31, 62, 96, 0.2);  
+ background-color: rgba(195, 206, 226,0.4);
+ 
+ /* background: transparent; */
+}
+
+ .sidenav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+} 
+
+ /* .wrapper{
+	border: 5px solid orange;
+}  */
+
+.wrapper .remain .sidenav h1{
+    color:white;
+    text-align : center;
+	line-height: 100%;
+    border-bottom: 1px dotted white;
+    font-size: 170%;
+	overflow-y: hidden;
+}
+
+ul{
+   margin-top: 7%;
+   /* border: 2px solid red; */
+   height: 100%;
+} 
+
+
+
+.wrapper .remain .sidenav ul li{
+    list-style: none;
+    /* pading: 50px; */
+	height: 7%;
+	margin: 3%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
+
+
+}
+
+.wrapper .remain .main_text{
+width: 80vw;
+margin-left: 20vw;
+}
+
+/* main text */
+
+.profile-image{
+    height:48%;
+    width:15%;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZWFVq0QIidGN0ioQJHhNBoEr1DvlH_yR05nH2_uz3tku7PvXWnDGshe5PHLqxQ91oMQ&usqp=CAU");
+    background-size: cover;
+
+
+}
+.profile-details{
+    display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	height: 12vh;
+	
+}
+
+
+
+
+.bcolor:hover{
+	box-shadow: 2px 2px 1px rgb(7, 121, 244),
+	            -2px -2px -2px rgb(7, 121, 244);
+}
+
+
+
+
+
+
+
+
+ tr:hover{
+	/* transform: scale(1.01); */
+	transition: 0.1s;
+    background-color: rgba(195, 206, 226,0.4);
+}
+
+.profile-name{
+	color: black;
+	height: auto;
+	overflow-y: hidden;
+}
+
+.profile-header{
+    width:80vw;
+    height: 20vh;
+    /* outline:0.2vh solid black;
+    outline-offset: -0.2vh; */
+    
+}
+
+.left-box{
+    width: 18vw;
+    height: 50vh;
+    display: inline-block;
+    /* outline:0.2vh solid blue;
+    outline-offset: -0.2vh; */
+    /* margin-top: 0vh; */
+    margin-bottom: 23vh;
+    margin-left: 10vh;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.student-photo{
+    width: 15vw;
+    height: 26vh;
+    /* display: inline-block; */
+    /* outline:0.2vh solid green;
+    outline-offset: -0.2vh; */
+    margin-top: 2vh;
+    margin-left: 3vh;
+}
+
+.studentimg{
+    /* width: 10vw; */
+    height: 23vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    /* border-radius: 10vh; */
+}
+
+.student-name{
+    /* outline:0.2vh solid green;
+    outline-offset: -0.2vh; */
+    padding: 2vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 1vh;
+}
+
+
+.right-box{
+    width: 50vw;
+    height: 73vh;
+    display: inline-block;
+    /* outline:0.2vh solid red;
+    outline-offset: -0.2vh; */
+    margin-top: 11vh;
+    margin-left: 3vh;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.table{
+    height: 80vh;
+    width: 50vw;
+    /* outline:0.2vh solid green;
+    outline-offset: -0.2vh; */
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+.table > tbody > tr > td {
+    font-size: 20px;
+    padding: 0.5vw;
+    /* border: 2px solid blue; */
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+h1{
+    padding: 10px;
+} 
+
+button{
+    text-align: center;
+    cursor: pointer;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgba(195, 206, 226,0.4);
+}
+/* .edit-button{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding-right: -100px;
+    border: 5px solid blue;
+} */
+
+.edit-button:hover{
+    background-color: white;
+}
+
